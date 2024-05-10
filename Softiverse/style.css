@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                      /* NAV   */
+
+.nav{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to right,rgb(72, 0, 114), rgb(183, 0, 255));
+}
+.hamburger{
+padding-top: 7.5px;
+margin-left: 25%;   
+}
+                          
+i{
+    background-color: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: -38px;
+}
+  
+.dropdown-content a {
+    color:white;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: small;
+    
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(124, 0, 226);
+    text-decoration: none;
+    color: white;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+                  /* IMAGES */
+
+.container-1{
+display: flex;
+}
+.imgpara{
+    margin-top: 50px;
+    color: white;
+}
+.inspirep{
+    margin-top: 100px;
+}
+
+                
+.header-text{
+    background-image: url(p2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+                
+.header-text h1{
+     margin: 65% 0% 3% 0%;
+}
+                
+.header-image img{
+    height: 800px;
+    width: 500px;
+}
+.header-text h1,h3{
+    text-align: center;
+    color: white;
+    line-height: 35px;
+ }
+.btn-1{
+    background: #2f00ff;
+    color: rgb(255, 255, 255);
+    border: none;
+     width: 115px;
+     margin-top: 20px;
+ }
+                
+.btn-2{
+    color: white;
+     border: none;
+     width: 115px;
+     background: linear-gradient(to right, #953bef, #340160 100%);
+     padding: 5px;
+     border-radius: 10px;
+}
+                
+
+
+
+
+    /* lines   */
+
+
+.l1,.l2{
+    width: 33%;
+}
+
+.l3{
+    width: 34%;
+}
+     
+    
+.head_01{
+    font-size: 25px;
+    color: #212121;
+}
+.line_01{
+    font-size: 10px;
+    color: rgb(114, 114, 114);
+    padding-top: 40px;
+}
+.head_02{
+    padding-top: 60px;
+    font-size: 25px;
+    color: #212121;
+}
+.div_01{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.para_01{
+    color: rgb(84, 84, 84);
+    font-size: 13px;
+    line-height: 20px;
+}
+.communication{
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.commitment{
+    margin-right: 45px;
+    margin-top: -10px;
+}
+.create{
+    margin-top: -10px;
+    margin-right: 60px;
+}
+.care{
+    margin-top: -10px;
+    margin-right: 75px;
+}
+.C-line1{
+    margin-right: 10px;
+}
+.C-line2{
+    margin-right: 24px;
+}
+.C-line3{
+    margin-right: 40px;
+}
+.hr_01{
+    width: 60%;
+    border: 1px solid rgb(103, 103, 103);
+    margin-left: 250px;
+    margin-top: -10px;
+}
+.Care{
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    margin-right: 300px;
+}
+.line_02{
+    font-size: 12px;
+}
+.div_02{
+    text-align: center;
+}
+.span_01{
+    font-size: 30px;
+    font-weight: bold;
+}
+                              /* HEAD END  */
+
+
+.middle_01{
+font-family: "Gill Sans", sans-serif;
+}
+
+ /* AREA  */
+.AREA{
+    font-size: 9px;
+    color: rgb(112, 112, 112);
+}
+
+/* Research  */
+.section_01{
+    display: flex;
+    margin-left: 400px;
+    padding-top: 35px;
+}
+.research{
+    margin-left: 20px;
+    color: #626262;
+    line-height: 20px;
+}
+.head_03{
+    font-size: 30px;
+    color: #212121;
+}
+.section_02{
+    display: flex;
+    margin-left: 350px;
+    padding-top: 35px;
+    position: relative;
+}
+.power{
+    color: #6d6d6d;
+    margin-left: -100px;
+    margin-right: 50px;
+    line-height: 25px;
+}
+.section_03{
+    display: flex;
+    padding-top: 35px;
+}
+.creative{
+    margin-left: 40px;
+    color: #5b5b5b;
+    line-height: 25px;
+}
+
+.section_04{
+    display: flex;
+    margin-left: 480px;
+    padding-top: 1px;
+}
+.innovative{
+    padding-top: 30px;
+    margin-left: -200px;
+    margin-right: 30px;
+    color: #6d6d6d;
+    line-height: 25px;
+}
+.section_05{
+    display: flex;
+    margin-left: 5px;
+    padding-top: 35px;
+}
+.transparency{
+    padding-top: 100px;
+    color: #6d6d6d;
+    padding-left: 40px;
+    line-height: 25px;
+}
+              /* portfolio section  */
+.port{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    color: #6d6d6d;
+}
+.port_01{
+    padding-top: 40px;
+    font-size: 10px;
+    margin-bottom: -2px;
+}
+.port_02{
+    color: black;
+    font-size: 30px;
+}
+.port_03{
+    color: black;
+    font-size: 15px;
+}
+/* after slider  */
+
+.package{
+    padding-top: 50px;
+    font-size: 35px;
+    color: black;
+}
+.feel{
+    margin-top: -43px;
+    margin-bottom: 50px;
+    color: rgb(33, 33, 33);
+}
+                               /* CARDS    */
+.Cards{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 30px;
+}
+.card-body{
+    background: linear-gradient(to bottom left, #8000ff, #400077 100%);
+}
+
+
+               /* three steps content  */
+.Joins{
+    font-family: "Gill Sans", sans-serif;
+}
+.threesteps{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: black;
+}
+.lastjoin{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    color: #212121;
+}
+.number-1{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.suits-1{
+    margin-top: -33px;
+    margin-right: 50px;
+}
+.lastjoin-2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 160px;
+    color: #212121;
+}
+.number-2{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.suits-2{
+    margin-top: -33px;
+    margin-right: 50px;
+}
+.lastjoin-3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 330px;
+    color: #212121;
+}
+.number-3{
+    font-weight: bold;
+    margin-left: 35px;
+}
+.suits-3{
+    margin-top: -33px;
+    margin-right: 50px;
+}
+.happy-1{
+    margin-top: 100px;
+    padding: 100px;
+    background: #000;
+    color: white;
+}
+.happy-head{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.happy-para{
+    margin-left: 200px;
+}
+.footerdiv{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 58%;
+    text-align-last: left;
+}
+.Soft-para{
+    font-size: 15px;
+}
+.lets-1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.forms{
+    margin-top: -450px;
+    padding: 100px;
+}
+#subject{
+    margin-top: 10px;
+    width: 400px;
+}
+.input-1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.input-2{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.input-3{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.buttn-last{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to bottom left, #8000ff, #400077 100%);
+    border-radius: 10px;
+    border: none;
+    
+}
+.container-last{
+    margin-right: 10px;
+}
+.logo-last{
+    margin-top: 100px;
+    margin-left: 20 %;
+}
+.logo-1{
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+
